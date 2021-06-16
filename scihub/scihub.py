@@ -173,8 +173,8 @@ class SciHub(object):
             self._change_base_url()
 
         except requests.exceptions.RequestException as e:
-            logger.info('Failed to fetch pdf with identifier %s (resolved url %s) due to request exception.'
-                       % (identifier, url))
+            #logger.info('Failed to fetch pdf with identifier %s (resolved url %s) due to request exception.'
+             #          % (identifier, url))
             return {
                 'err': 'Failed to fetch pdf with identifier %s (resolved url %s) due to request exception.'
                        % (identifier, url)

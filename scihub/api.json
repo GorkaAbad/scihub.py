@@ -1,0 +1,140 @@
+{
+"result":{
+"query":"poisoning* federated* learning*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"2.29"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"18",
+"@dc":"18",
+"@oc":"18",
+"@id":"26769628",
+"text":"learning"
+}
+},
+"hits":{
+"@total":"18",
+"@computed":"18",
+"@sent":"18",
+"@first":"0",
+"hit":[{
+"@score":"3",
+"@id":"25951",
+"info":{"authors":{"author":[{"@pid":"151/8843","text":"Xingchen Zhou"},{"@pid":"43/3362-1","text":"Ming Xu 0001"},{"@pid":"91/4697","text":"Yiming Wu"},{"@pid":"59/5646-1","text":"Ning Zheng 0001"}]},"title":"Deep Model Poisoning Attack on Federated Learning.","venue":"Future Internet","volume":"13","number":"3","pages":"73","year":"2021","type":"Journal Articles","key":"journals/fi/Zhou0W021","doi":"10.3390/FI13030073","ee":"https://doi.org/10.3390/fi13030073","url":"https://dblp.org/rec/journals/fi/Zhou0W021"},
+"url":"URL#25951"
+},
+{
+"@score":"3",
+"@id":"35941",
+"info":{"authors":{"author":[{"@pid":"218/2216","text":"Jiale Zhang"},{"@pid":"55/6253-2","text":"Bing Chen 0002"},{"@pid":"29/1059-4","text":"Xiang Cheng 0004"},{"@pid":"91/1561","text":"Huynh Thi Thanh Binh"},{"@pid":"90/3575","text":"Shui Yu"}]},"title":"PoisonGAN - Generative Poisoning Attacks Against Federated Learning in Edge Computing Systems.","venue":"IEEE Internet Things J.","volume":"8","number":"5","pages":"3310-3322","year":"2021","type":"Journal Articles","key":"journals/iotj/ZhangCCBY21","doi":"10.1109/JIOT.2020.3023126","ee":"https://doi.org/10.1109/JIOT.2020.3023126","url":"https://dblp.org/rec/journals/iotj/ZhangCCBY21"},
+"url":"URL#35941"
+},
+{
+"@score":"3",
+"@id":"88022",
+"info":{"authors":{"author":[{"@pid":"239/8796","text":"Ronald Doku"},{"@pid":"79/2597","text":"Danda B. Rawat"}]},"title":"Mitigating Data Poisoning Attacks On a Federated Learning-Edge Computing Network.","venue":"CCNC","pages":"1-6","year":"2021","type":"Conference and Workshop Papers","key":"conf/ccnc/DokuR21","doi":"10.1109/CCNC49032.2021.9369581","ee":"https://doi.org/10.1109/CCNC49032.2021.9369581","url":"https://dblp.org/rec/conf/ccnc/DokuR21"},
+"url":"URL#88022"
+},
+{
+"@score":"3",
+"@id":"112763",
+"info":{"authors":{"author":[{"@pid":"205/2123","text":"Ranwa Al Mallah"},{"@pid":"05/329","text":"David López 0003"},{"@pid":"125/0666","text":"Bilal Farooq"}]},"title":"Untargeted Poisoning Attack Detection in Federated Learning via Behavior Attestation.","venue":"CoRR","volume":"abs/2101.10904","year":"2021","type":"Informal Publications","key":"journals/corr/abs-2101-10904","ee":"https://arxiv.org/abs/2101.10904","url":"https://dblp.org/rec/journals/corr/abs-2101-10904"},
+"url":"URL#112763"
+},
+{
+"@score":"3",
+"@id":"113139",
+"info":{"authors":{"author":[{"@pid":"221/1612","text":"Kang Wei"},{"@pid":"l/JunLi4","text":"Jun Li 0004"},{"@pid":"48/3462-1","text":"Ming Ding 0001"},{"@pid":"87/5241","text":"Chuan Ma"},{"@pid":"145/1261","text":"Yo-Seb Jeon"},{"@pid":"p/HVincentPoor","text":"H. Vincent Poor"}]},"title":"Covert Model Poisoning Against Federated Learning - Algorithm Design and Optimization.","venue":"CoRR","volume":"abs/2101.11799","year":"2021","type":"Informal Publications","key":"journals/corr/abs-2101-11799","ee":"https://arxiv.org/abs/2101.11799","url":"https://dblp.org/rec/journals/corr/abs-2101-11799"},
+"url":"URL#113139"
+},
+{
+"@score":"3",
+"@id":"346936",
+"info":{"authors":{"author":[{"@pid":"260/5590","text":"Florian Nuding"},{"@pid":"59/528","text":"Rudolf Mayer"}]},"title":"Poisoning Attacks in Federated Learning - An Evaluation on Traffic Sign Classification.","venue":"CODASPY","pages":"168-170","year":"2020","type":"Conference and Workshop Papers","key":"conf/codaspy/NudingM20","doi":"10.1145/3374664.3379534","ee":"https://doi.org/10.1145/3374664.3379534","url":"https://dblp.org/rec/conf/codaspy/NudingM20"},
+"url":"URL#346936"
+},
+{
+"@score":"3",
+"@id":"366811",
+"info":{"authors":{"author":[{"@pid":"270/3594","text":"Vale Tolpegin"},{"@pid":"205/9231","text":"Stacey Truex"},{"@pid":"165/5531","text":"Mehmet Emre Gursoy"},{"@pid":"l/LingLiu","text":"Ling Liu 0001"}]},"title":"Data Poisoning Attacks Against Federated Learning Systems.","venue":"ESORICS","pages":"480-501","year":"2020","type":"Conference and Workshop Papers","key":"conf/esorics/TolpeginTGL20","doi":"10.1007/978-3-030-58951-6_24","ee":"https://doi.org/10.1007/978-3-030-58951-6_24","url":"https://dblp.org/rec/conf/esorics/TolpeginTGL20"},
+"url":"URL#366811"
+},
+{
+"@score":"3",
+"@id":"407232",
+"info":{"authors":{"author":[{"@pid":"274/2491","text":"Ashneet Khandpur Singh"},{"@pid":"133/8414","text":"Alberto Blanco-Justicia"},{"@pid":"d/JDomingoFerrer","text":"Josep Domingo-Ferrer"},{"@pid":"45/445-1","text":"David Sánchez 0001"},{"@pid":"78/1744","text":"David Rebollo-Monedero"}]},"title":"Fair Detection of Poisoning Attacks in Federated Learning.","venue":"ICTAI","pages":"224-229","year":"2020","type":"Conference and Workshop Papers","key":"conf/ictai/SinghBD0R20","doi":"10.1109/ICTAI50040.2020.00044","ee":"https://doi.org/10.1109/ICTAI50040.2020.00044","url":"https://dblp.org/rec/conf/ictai/SinghBD0R20"},
+"url":"URL#407232"
+},
+{
+"@score":"3",
+"@id":"445728",
+"info":{"authors":{"author":[{"@pid":"282/0027","text":"Yuao Wang"},{"@pid":"19/8310","text":"Tianqing Zhu"},{"@pid":"251/1360","text":"Wenhan Chang"},{"@pid":"138/5764","text":"Sheng Shen"},{"@pid":"92/5008-2","text":"Wei Ren 0002"}]},"title":"Model Poisoning Defense on Federated Learning - A Validation Based Approach.","venue":"NSS","pages":"207-223","year":"2020","type":"Conference and Workshop Papers","key":"conf/nss/WangZCSR20","doi":"10.1007/978-3-030-65745-1_12","ee":"https://doi.org/10.1007/978-3-030-65745-1_12","url":"https://dblp.org/rec/conf/nss/WangZCSR20"},
+"url":"URL#445728"
+},
+{
+"@score":"3",
+"@id":"466852",
+"info":{"authors":{"author":[{"@pid":"157/0863","text":"Minghong Fang"},{"@pid":"146/9100","text":"Xiaoyu Cao"},{"@pid":"24/5124","text":"Jinyuan Jia"},{"@pid":"03/9437","text":"Neil Zhenqiang Gong"}]},"title":"Local Model Poisoning Attacks to Byzantine-Robust Federated Learning.","venue":"USENIX Security Symposium","pages":"1605-1622","year":"2020","type":"Conference and Workshop Papers","key":"conf/uss/FangCJG20","ee":"https://www.usenix.org/conference/usenixsecurity20/presentation/fang","url":"https://dblp.org/rec/conf/uss/FangCJG20"},
+"url":"URL#466852"
+},
+{
+"@score":"3",
+"@id":"498280",
+"info":{"authors":{"author":[{"@pid":"191/2425","text":"Gan Sun"},{"@pid":"76/3700","text":"Yang Cong"},{"@pid":"247/5746","text":"Jiahua Dong"},{"@pid":"64/5630-15","text":"Qiang Wang 0015"},{"@pid":"51/4433","text":"Ji Liu"}]},"title":"Data Poisoning Attacks on Federated Machine Learning.","venue":"CoRR","volume":"abs/2004.10020","year":"2020","type":"Informal Publications","key":"journals/corr/abs-2004-10020","ee":"https://arxiv.org/abs/2004.10020","url":"https://dblp.org/rec/journals/corr/abs-2004-10020"},
+"url":"URL#498280"
+},
+{
+"@score":"3",
+"@id":"516521",
+"info":{"authors":{"author":[{"@pid":"270/3594","text":"Vale Tolpegin"},{"@pid":"205/9231","text":"Stacey Truex"},{"@pid":"165/5531","text":"Mehmet Emre Gursoy"},{"@pid":"l/LingLiu","text":"Ling Liu 0001"}]},"title":"Data Poisoning Attacks Against Federated Learning Systems.","venue":"CoRR","volume":"abs/2007.08432","year":"2020","type":"Informal Publications","key":"journals/corr/abs-2007-08432","ee":"https://arxiv.org/abs/2007.08432","url":"https://dblp.org/rec/journals/corr/abs-2007-08432"},
+"url":"URL#516521"
+},
+{
+"@score":"3",
+"@id":"529055",
+"info":{"authors":{"author":[{"@pid":"210/6243","text":"Zhuoran Ma"},{"@pid":"12/6604-1","text":"Jianfeng Ma 0001"},{"@pid":"166/1798","text":"Yinbin Miao"},{"@pid":"134/3945","text":"Ximeng Liu"},{"@pid":"c/KimKwangRaymondChoo","text":"Kim-Kwang Raymond Choo"},{"@pid":"d/RobertHDeng","text":"Robert H. Deng"}]},"title":"Pocket Diagnosis - Secure Federated Learning against Poisoning Attack in the Cloud.","venue":"CoRR","volume":"abs/2009.10918","year":"2020","type":"Informal Publications","key":"journals/corr/abs-2009-10918","ee":"https://arxiv.org/abs/2009.10918","url":"https://dblp.org/rec/journals/corr/abs-2009-10918"},
+"url":"URL#529055"
+},
+{
+"@score":"3",
+"@id":"783752",
+"info":{"authors":{"author":[{"@pid":"00/4089","text":"Ying Zhao"},{"@pid":"153/8118","text":"Junjun Chen"},{"@pid":"218/2216","text":"Jiale Zhang"},{"@pid":"52/328-50","text":"Di Wu 0050"},{"@pid":"248/5340","text":"Jian Teng"},{"@pid":"90/3575","text":"Shui Yu"}]},"title":"PDGAN - A Novel Poisoning Defense Method in Federated Learning Using Generative Adversarial Network.","venue":"ICA3PP","pages":"595-609","year":"2019","type":"Conference and Workshop Papers","key":"conf/ica3pp/ZhaoCZWTY19","doi":"10.1007/978-3-030-38991-8_39","ee":"https://doi.org/10.1007/978-3-030-38991-8_39","url":"https://dblp.org/rec/conf/ica3pp/ZhaoCZWTY19"},
+"url":"URL#783752"
+},
+{
+"@score":"3",
+"@id":"806983",
+"info":{"authors":{"author":[{"@pid":"75/5028","text":"Di Cao"},{"@pid":"97/1256","text":"Shan Chang"},{"@pid":"171/1136","text":"Zhijian Lin"},{"@pid":"98/6390","text":"Guohua Liu"},{"@pid":"51/7665","text":"Donghong Sun"}]},"title":"Understanding Distributed Poisoning Attack in Federated Learning.","venue":"ICPADS","pages":"233-239","year":"2019","type":"Conference and Workshop Papers","key":"conf/icpads/CaoCLLS19","doi":"10.1109/ICPADS47876.2019.00042","ee":"https://doi.org/10.1109/ICPADS47876.2019.00042","url":"https://dblp.org/rec/conf/icpads/CaoCLLS19"},
+"url":"URL#806983"
+},
+{
+"@score":"3",
+"@id":"880808",
+"info":{"authors":{"author":[{"@pid":"218/2216","text":"Jiale Zhang"},{"@pid":"153/8118","text":"Junjun Chen"},{"@pid":"52/328-50","text":"Di Wu 0050"},{"@pid":"55/6253-2","text":"Bing Chen 0002"},{"@pid":"90/3575","text":"Shui Yu"}]},"title":"Poisoning Attack in Federated Learning using Generative Adversarial Nets.","venue":"TrustCom/BigDataSE","pages":"374-380","year":"2019","type":"Conference and Workshop Papers","key":"conf/trustcom/ZhangCWCY19","doi":"10.1109/TRUSTCOM/BIGDATASE.2019.00057","ee":"https://doi.org/10.1109/TrustCom/BigDataSE.2019.00057","url":"https://dblp.org/rec/conf/trustcom/ZhangCWCY19"},
+"url":"URL#880808"
+},
+{
+"@score":"3",
+"@id":"947650",
+"info":{"authors":{"author":[{"@pid":"157/0863","text":"Minghong Fang"},{"@pid":"146/9100","text":"Xiaoyu Cao"},{"@pid":"24/5124","text":"Jinyuan Jia"},{"@pid":"03/9437","text":"Neil Zhenqiang Gong"}]},"title":"Local Model Poisoning Attacks to Byzantine-Robust Federated Learning.","venue":"CoRR","volume":"abs/1911.11815","year":"2019","type":"Informal Publications","key":"journals/corr/abs-1911-11815","ee":"http://arxiv.org/abs/1911.11815","url":"https://dblp.org/rec/journals/corr/abs-1911-11815"},
+"url":"URL#947650"
+},
+{
+"@score":"3",
+"@id":"1301181",
+"info":{"authors":{"author":[{"@pid":"199/8537","text":"Clement Fung"},{"@pid":"225/5212","text":"Chris J. M. Yoon"},{"@pid":"98/5324","text":"Ivan Beschastnikh"}]},"title":"Mitigating Sybils in Federated Learning Poisoning.","venue":"CoRR","volume":"abs/1808.04866","year":"2018","type":"Informal Publications","key":"journals/corr/abs-1808-04866","ee":"http://arxiv.org/abs/1808.04866","url":"https://dblp.org/rec/journals/corr/abs-1808-04866"},
+"url":"URL#1301181"
+}
+]
+}
+}
+}
