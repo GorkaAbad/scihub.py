@@ -22,7 +22,6 @@ def searchScholar(keywords, n):
        'Connection': 'keep-alive'}    
     url = baseUrl + '+'.join(keywords) + finalUrl
     req = urllib.request.Request(url, headers=hdr)
-    #res = webbrowser.open(url)
     res = urllib.request.urlopen(req)
     if res.status == 200:
         soup = BeautifulSoup(res.read(), 'lxml')
@@ -102,7 +101,11 @@ def sciBulk(input_path):
     
 
 def init():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='A simple bulk paper downloader. It can download papers from dblp exported as JSON or from Google Scholar. It will look them up in sci-hub and in arxiv, along with other abailable sources.', 
+formatter_class=argparse.RawDescriptionHelpFormatter,
+epilog='''
+python3 {} -dblp papers.json 
+python3 {} -scholar machine learning -n 2'''.format(sys.argv[0],sys.argv[0]))
     parser.add_argument('-dblp', help='Supply a json file containing the papers form dblp.',
                         metavar='Path.', type=Path)
     parser.add_argument('-scholar', help='Supply keywords that must be used to donwload papers from scholar.',
