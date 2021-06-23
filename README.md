@@ -4,7 +4,7 @@ scihub.py
 This is a fork of [scihub.py](https://github.com/zaytoun/scihub.py), I use it as a library: <br/>
 scihub.py is an unofficial API for Sci-hub. scihub.py can search for papers on Google Scholars and download papers from Sci-hub. It can be imported independently or used from the command-line.
 
-This version enable bulk paper donwload.
+This version enables bulk paper donwload.
 Importing a JSON file from [dblp](https://dblp.org/),
 or by using keywords from [Google Scholar](https://scholar.google.es/).
 
